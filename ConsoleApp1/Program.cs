@@ -22,7 +22,7 @@ namespace ConsoleApp1
                 new Conjured { Name = "ConjuredTest2", SellIn = 2, Quality = 5 } // to test if Quality drops to 0 on next day when current Quality is less than 4
             };
            
-            var days = 30;
+            var days = 51; // at 51 days aged brie is tested for Quality 50
 
             for (int i = 0; i < days; i++)
             {
